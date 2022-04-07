@@ -1,5 +1,11 @@
 <template>
-    <header class="container">
+    <div>
+        <div class="col-12 company-contact">
+            <div class="container text-white pt-1">
+                Open Hours - Sat - 9:00 - 18:00
+            </div>
+        </div>
+        <header class="container">
         <div class="row">
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
@@ -22,7 +28,9 @@
                 </nav>
             </div>
         </div>
-    </header>
+        </header>
+    </div>
+    
 
 </template>
 
@@ -57,6 +65,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+    .company-contact{
+        background-color: #21333e;
+        height: 4vh;
+    }
+    
     .my-button{
         background-color: #048383;
         color: white;
