@@ -10,7 +10,7 @@
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
                     <div class="container-fluid">
-                        <img src="../assets/img/nexgen-logo.svg" class="img-fluid my-logo" alt="">
+                        <img src="../assets/img/nexgen-logo.svg" class="my-logo" alt="">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -64,7 +64,7 @@ export default {
 }
 </script>
 
-<style  lang="scss">
+<style  scoped lang="scss">
     .company-contact{
         background-color: #21333e;
         height: 4vh;

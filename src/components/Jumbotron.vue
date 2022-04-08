@@ -2,9 +2,9 @@
     <div class="jumbo-container container-fluid p-0">
         <div class="row">
             <div class="col-6">
-                <img :src="require('../assets/img/bg-6.jpg')" class="my-jumbo-img" alt="">
+                
             </div>
-            <div class="col-6 d-flex flex-column justify-content-center pb-5 mb-5">
+            <div class="col-6 d-flex flex-column justify-content-center p-5 mt-5">
                 <p>FUSION & ACQUISITIONS</p>
                 <h1 class="my-jumbo-title mb-5 col-3 ">Insurance Consulting</h1>
                 <div class="col-6 d-flex flex-row mb-3">
@@ -42,11 +42,17 @@ export default {
 }
 .jumbo-container{
     height: 80vh;
+    background-image: url(../assets/img/bg-6.jpg);
 }
 .my-jumbo-img{
-    height: 100%;
-}
+    height: 70%;
 
+}
+.my-button{
+        background-color: #048383;
+        color: white;
+    }
+    
 .my-jumbo-title{
     font-size: 5rem;
     font-weight: 900;
