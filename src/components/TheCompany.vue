@@ -18,15 +18,19 @@
                     <div class="col-6 d-flex mx-5 flex-wrap pt-5">
                         <div class="col-6">
                             <h3>Tradition</h3> 
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="col-6">
                             <h3>Security</h3> 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         </div>
                         <div class="col-6">
-                            <h3>Certificate</h3> 
+                            <h3>Certificate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
                         </div>
                         <div class="col-6">
-                            <h3>Experties</h3> 
+                            <h3>Experties</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
                         </div>
                     </div>
                 </div>
