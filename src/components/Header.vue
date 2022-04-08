@@ -64,7 +64,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style  lang="scss">
     .company-contact{
         background-color: #21333e;
         height: 4vh;
