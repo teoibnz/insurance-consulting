@@ -6,7 +6,7 @@
                     <div class="col-5 mx-1">
                         <p class="text-company">ABOUT THE NETWORK</p>
                         <h1 class="fw-bold my-5">
-                            <span class="company-bg p-2">The</span> Company
+                            <span class="company-bg p-2 rounded">The</span> Company
                         </h1>
                         <p class="mb-4">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit modi cumque nemo nulla voluptatem aperiam totam molestiae voluptas placeat, iure amet blanditiis illo aut ullam assumenda voluptatum, laboriosam eius.
