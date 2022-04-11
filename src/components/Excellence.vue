@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="excellence-text">OUR BUSINESS AREAS</p>
-                    <h1 class="fw-bold mb-5">Excellence in <span class="excellence-bg p-2 rounded">Services</span></h1>
+                    <p class="excellence-text px-5">OUR BUSINESS AREAS</p>
+                    <h1 class="fw-bold mb-5 px-5">Excellence in <span class="excellence-bg p-2 rounded">Services</span></h1>
                     <div class="d-flex">                    
                         <p class="col-8">
                         We are leaders in providing consultancy services with a set of cutting-edge technoogies and a team of experienced and renowed professionals. these are some options that you can hire.
@@ -84,6 +84,10 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+
+*{
+    margin: 0 auto;
+}
 .my-excellence-wrapper{
     padding-top: 10rem;
     // background-color: #eef4ed;
