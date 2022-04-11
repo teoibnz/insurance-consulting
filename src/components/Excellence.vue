@@ -3,72 +3,72 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="excellence-text px-5">OUR BUSINESS AREAS</p>
-                    <h1 class="fw-bold mb-5 px-5">Excellence in <span class="excellence-bg p-2 rounded">Services</span></h1>
+                    <p class="excellence-text mb-4">OUR BUSINESS AREAS</p>
+                    <h1 class="fw-bold mb-5">Excellence in <span class="excellence-bg p-2 rounded">Services</span></h1>
                     <div class="d-flex">                    
-                        <p class="col-8">
+                        <p class="col-8 m-0">
                         We are leaders in providing consultancy services with a set of cutting-edge technoogies and a team of experienced and renowed professionals. these are some options that you can hire.
                         </p>
                         <form class="d-flex ms-5 ps-5">
-                            <button class="btn btn-outline-success mx-4 my-button" type="submit">
+                            <button class="btn btn-outline-success ms-5 my-button" type="submit">
                                 SEE ALL
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 d-flex justify-content-center">
                 <div class="col-12 d-flex ">
                     <div class="col-4 my-card d-flex flex-column flex-wrap">
-                        <div class="">
+                        <div class="px-0 mx-0">
                             <i>Icon</i>
                             <i>Icon</i>
                         </div>
-                        <h3>Audit & Assurance</h3>
+                        <h3 class="p-0 mx-4">Audit & Assurance</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="col-4 my-card d-flex flex-column">
-                        <div class="">
+                        <div class="px-0 mx-0">
                             <i>Icon</i>
                             <i>Icon</i>
                         </div>
-                        <h3>Financial Advisory</h3>
+                        <h3 class="p-0 mx-4">Financial Advisory</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="col-4 my-card d-flex flex-column">
-                        <div class="">
+                        <div class="px-0 mx-0">
                             <i>Icon</i>
                             <i>Icon</i>
                         </div>
-                        <h3>Analytics and M&A</h3>
+                        <h3 class="p-0 mx-4">Analytics and M&A</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 d-flex ">
+                <div class="col-12 d-flex">
                     <div class="col-4 my-card d-flex flex-column flex-wrap">
-                        <div class="">
+                        <div class="px-0 mx-0">
                             <i>Icon</i>
                             <i>Icon</i>
                         </div>
-                        <h3>Middle Marketing</h3>
+                        <h3 class="p-0 mx-4">Middle Marketing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="col-4 my-card d-flex flex-column">
-                        <div class="">
+                        <div class="px-0 mx-0">
                             <i>Icon</i>
                             <i>Icon</i>
                         </div>
-                        <h3>Legal Consulting</h3>
+                        <h3 class="p-0 mx-4">Legal Consulting</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="col-4 my-card d-flex flex-column">
-                        <div class="">
+                        <div class="px-0 mx-0">
                             <i>Icon</i>
                             <i>Icon</i>
                         </div>
-                        <h3>Regulatory Risk</h3>
+                        <h3 class="p-0 mx-4">Regulatory Risk</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
@@ -102,9 +102,8 @@ export default {
     }
 .my-card{
     background-color: white;
-    width: calc(100% / 4);
     margin-bottom: 2.5rem;
-    margin-right: 3.5rem;
+    margin-right: 1.5rem;
     border-radius: 4%;
     *{
         padding:1rem 1.5rem 1rem 1.5rem;

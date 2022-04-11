@@ -104,4 +104,10 @@ export default {
     }
 }
 
+.my-social{
+    height: 10px;
+}
+
+
+
 </style>

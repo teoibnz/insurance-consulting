@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+import 'font-awesome/scss/font-awesome.scss'
+
 
 Vue.config.productionTip = false
 

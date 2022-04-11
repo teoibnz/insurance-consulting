@@ -1,7 +1,7 @@
 <template>
     <div class=' my-process-wrapper'>
         <div class="container w-50 text-center py-5 mt-5">
-            <p class="process-text mb-5">HOW IT WORKS IN PRACTICE</p>
+            <p class="process-text mb-5 fw-bold">HOW IT WORKS IN PRACTICE</p>
             <h1 class="fw-bold mb-5"><span class="process-bg process-text rounded p-2">Process</span> Management </h1>
             <p>We work with innovative methodologies to ensure that the entire reformatting process is done from start to finisch as planned.</p>
         </div>
