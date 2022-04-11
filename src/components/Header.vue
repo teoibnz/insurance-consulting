@@ -1,8 +1,13 @@
 <template>
     <div>
         <div class="col-12 company-contact">
-            <div class="container text-white pt-1">
-                Open Hours - Sat - 9:00 - 18:00
+            <div class="container text-white pt-1 d-flex justify-content-between">
+                <span>Open Hours - Sat - 9:00 - 18:00</span>
+                <div>
+                    <span class="me-4">+1 (305) 1234-5678</span>
+                    <span>hello@example.com</span>
+                </div>
+
             </div>
         </div>
         <header class="container">
@@ -16,7 +21,7 @@
                         </button>
                         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
                             <ul class="navbar-nav mb-2 mb-lg-0 text-end">
-                                <li class="nav-item" v-for='(element, index) in navBar' :key="index">
+                                <li class="nav-item me-4" v-for='(element, index) in navBar' :key="index">
                                 <a class="nav-link active" aria-current="page" href="#">{{element.item}}</a>
                                 </li>
                             </ul>

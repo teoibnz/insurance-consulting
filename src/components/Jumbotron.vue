@@ -5,7 +5,7 @@
                 
             </div>
             <div class="col-6 d-flex flex-column justify-content-center p-5 mt-5">
-                <p>FUSION & ACQUISITIONS</p>
+                <p class="text-jumbo fw-bold">FUSION & ACQUISITIONS</p>
                 <h1 class="my-jumbo-title mb-5 col-3 ">Insurance Consulting</h1>
                 <div class="col-6 d-flex flex-row mb-3">
                     <input class="form-control me-2 p-3" type="search" placeholder="Name" aria-label="Search">
@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style  lang="scss">
+<style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
@@ -49,6 +49,7 @@ export default {
 
 }
 .my-button{
+        // background-color: #048383;
         background-color: #048383;
         color: white;
     }
@@ -57,4 +58,7 @@ export default {
     font-size: 5rem;
     font-weight: 900;
 }
+.text-jumbo{
+        color: #048383
+    }
 </style>
