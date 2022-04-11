@@ -86,7 +86,8 @@ export default {
 <style scoped lang='scss'>
 .my-excellence-wrapper{
     padding-top: 10rem;
-    background-color: #eef4ed;
+    // background-color: #eef4ed;
+    background-color: #e0eae8;
 }
 
 .my-button{
